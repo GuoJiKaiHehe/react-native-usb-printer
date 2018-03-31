@@ -19,7 +19,6 @@ var closeConn = () => RNPrinter.closeConn();
 export const RNUSBPrinter = {
   getUSBDeviceList,
   connectPrinter,
-  printText,
   print,
   closeConn
 }
