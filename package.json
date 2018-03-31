@@ -25,8 +25,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "buffer": "^5.0.7",
-    "escpos-printer-toolkit": "^1.0.8"
+    "buffer": "^5.0.7"
   },
   "deprecated": false,
   "description": "a usb thermal printer library for android ",
