@@ -8,12 +8,7 @@ var getUSBDeviceList = () => RNPrinter.getUSBDeviceList();
 
 var connectPrinter = (vendorId, productId) => RNPrinter.connectPrinter(vendorId, productId);
 
-var printText = (buffer) => {
- 
-  RNPrinter.printRawData(buffer.toString("base64"))
-}
-
-var printBillTextWithCut = (buffer) => {
+var print = (buffer) => {
 
   RNPrinter.printRawData(buffer.toString("base64"))
 }
@@ -25,6 +20,6 @@ export const RNUSBPrinter = {
   getUSBDeviceList,
   connectPrinter,
   printText,
-  printBillTextWithCut,
+  print,
   closeConn
 }
